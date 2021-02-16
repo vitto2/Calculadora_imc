@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/calc/calcimc.css">
+    <script src="backendcalc.js"></script>
+</head>
+<body class="default">
+    
+    <div class="principal">
+        <h2 class="title-calc">Calcule seu IMC</h2>
+       
+        <div class="background">
+            
+            <!--input 1-->
+            <div class="divin1">
+                <h3 class="textPeso">Peso</h3>
+                <input id="in1" type="text"/>
+            </div>
+            <!--input 2-->
+            <div class="divin2"> 
+                <h3 class="textAltura">Altura</h3>
+                <input id="in2" type="text"/>
+            </div>
+            <!--Botão-->
+            <div class="btnDiv">
+                <button class="btncalc" onclick="calc()">Calcular</button>
+            </div>
+
+            <div class="resultado">
+                <h3>Seu imc é:</h3>
+                <span id="numcalc"></span>
+            </div>
+        </div>
+    </div>
+
+   
+
+   
+</body>
+</html>
